@@ -17,6 +17,7 @@ export function Header() {
                             <li><Link href="/">Home</Link></li>
                             <li><Link href="/about">About</Link></li>
                             <li><Link href="/projects">Projects</Link></li>
+                            <li><Link href="/blog">Blogs</Link></li>
                         </ul>
                     </nav>
                     {/*Buttons*/}
