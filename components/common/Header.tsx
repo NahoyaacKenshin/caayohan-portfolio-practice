@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/common/ThemeToggle";
+import { ThemeToggle } from "@/components/common/ThemeToggle";
 
 export function Header() {
     return (
@@ -21,8 +21,8 @@ export function Header() {
                         </ul>
                     </nav>
                     {/*Buttons*/}
-                    <ModeToggle />
                     <div className="flex items-center gap-4">
+                        <ThemeToggle />
                         <Button>Contact</Button>
                     </div>
                 </div>
